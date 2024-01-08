@@ -31,9 +31,9 @@ The dataset consists of medical transcriptions with two main features:
 -----
 
 
-I addressed the specified problem statement by employing three distinct models:
+##### I addressed the specified problem statement by employing three distinct models:
 
-##### 1.OneVsRestClassifier:
+##### 1. OneVsRestClassifier:
 
 - This model is applied for multi-label classification to predict relevant keywords for medical transcriptions.
 - Utilizes a Stochastic Gradient Descent (SGD) classifier with a logistic loss function.
@@ -42,7 +42,7 @@ I addressed the specified problem statement by employing three distinct models:
 - A pre-trained BART (Bidirectional and Auto-Regressive Transformers) model is fine-tuned on the provided medical transcription dataset.
 - The objective is to enhance the language model's performance specifically for domain-specific NLP tasks in the medical field.
 
-##### KeyBERT Model:
+##### 3. KeyBERT Model:
 - KeyBERT, a keyword extraction model, is employed to extract key terms from medical transcriptions.
 - This approach focuses on unsupervised keyword extraction as an alternative to the supervised methods used in the previous models.
 
