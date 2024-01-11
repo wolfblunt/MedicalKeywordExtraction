@@ -88,7 +88,7 @@ The dataset consists of medical transcriptions with two main features:
 - The training loop iterates through epochs and batches, updating model weights.
 - Defines a function for generating keywords using the trained BART model.
 
-#### Reasoning: BART is chosen for keyword extraction due to its effectiveness in sequence-to-sequence tasks and text summarization and extraction.
+#### Reasoning: BART is chosen for keyword extraction due to its effectiveness in sequence-to-sequence tasks and text summarization and generation.
 
 -----
 
@@ -98,6 +98,11 @@ The dataset consists of medical transcriptions with two main features:
 - Iterates through the transcriptions, extracts keywords, and prints both the actual and model-extracted keywords for comparison.
 
 #### Reasoning: KeyBERT: A keyword extraction model is chosen for its ability to extract keywords from text using BERT embeddings. It operates in an unsupervised manner, making it suitable for cases where labeled data may be limited. Applied to each medical transcription to extract the top 15 keywords. The actual keywords from the dataset are compared with the model-extracted keywords.
+
+-----
+
+#### Notebook Link
+https://colab.research.google.com/drive/1WzBqMGneDDPOFPqju1zmdjnukZxnfGkn?usp=sharing
 
 -----
 
